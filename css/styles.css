@@ -43,6 +43,11 @@ body {
     background-color: #fff;
 }
 
+*:focus {
+    outline: 5px dotted var(--green);
+    outline-offset: 5px;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -136,6 +141,14 @@ img {
     justify-content: space-between;
 }
 
+.site-header-logo-img:hover {
+    opacity: 0.8;
+}
+
+.site-header-logo-img:active {
+    opacity: 0.8;
+}
+
 .site-header-list {
     display: flex;
 }
@@ -157,6 +170,14 @@ img {
     font-family: var(--site-font);
     text-decoration: none;
     color: var(--text-color);
+}
+
+.site-header-item-link:hover {
+    opacity: 0.8;
+}
+
+.site-header-item-link:active {
+    opacity: 0.6;
 }
 
 
