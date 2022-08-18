@@ -675,7 +675,9 @@ img {
     padding: 160px 150px;
     display: flex;
     align-items: center;
-    background-image: url("../img/index-collection-bg.png");
+    background-image: url("../img/leaf-1.png"), url("../img/index-collection-bg.png");
+    background-repeat: no-repeat;
+    background-position: -135px 20px, center center;
 }
 
 .our-commitment-img {
