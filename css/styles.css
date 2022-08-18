@@ -597,3 +597,277 @@ img {
     height: 30px;
     object-fit: contain;
 }
+
+
+/* ABOUT-US */
+
+.about-us-container {
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.about-us-info-wrapper {
+    width: 100%;
+    /* max-width: 461px; */
+    max-width: 730px;
+    padding-top: 116px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 116px;
+}
+
+.about-us-heading {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-family: var(--site-font);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: var(--black);
+}
+
+.about-us-text {
+    width: 372px;
+    margin-top: 0;
+    font-family: var(--site-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+}
+
+
+/* IMG */
+
+.about-us-img-wrapper {
+    position: relative;
+}
+
+.hero-img-wrapper {}
+
+.hero-badge {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-50%, -50%);
+}
+
+.hero-img {
+    display: block;
+    width: 710px;
+    height: 596px;
+    object-fit: cover;
+}
+
+.hero-img-index {
+    height: 696px;
+}
+
+
+/* OUR-COMMITMENT */
+
+.our-commitment {
+    margin-bottom: 80px;
+}
+
+.our-commitment-inner {
+    padding: 160px 150px;
+    display: flex;
+    align-items: center;
+    background-image: url("../img/index-collection-bg.png");
+}
+
+.our-commitment-img {
+    width: 360px;
+    height: 364px;
+    object-fit: cover;
+    margin-right: 185px;
+}
+
+.our-commitment-heading {
+    margin-top: 0;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.our-commitment-text {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333;
+}
+
+
+/* UNC-QUALITY */
+
+.unc-quality {
+    margin-bottom: 20px;
+}
+
+.unc-quality-inner {
+    align-items: center;
+    display: flex;
+    background-image: url("../img/sailor-girl-aupage.png"), url("../img/index-features-bg.png");
+    /* background-size: 100% 510px; */
+    background-repeat: no-repeat, repeat;
+    background-position: top right, center center;
+}
+
+.unc-quality-content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 143px;
+    padding-right: 30px;
+}
+
+.unc-quality-heading {
+    margin-top: 0;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: normal;
+    color: #fff;
+}
+
+.unc-quality-text {
+    width: 639px;
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.unc-quality-img {
+    width: 550px;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+/* OUR-HEADQUARTERS */
+
+
+/* .our-headquarters {
+    position: relative;
+    padding: 50px 30px;
+    background-color: var(--green);
+    background-image: url("../img/how-it-works-bg.png");
+    background-position: center center;
+    text-align: center;
+    background-size: 1400px 685px;
+} */
+
+.our-headquarters-inner {
+    position: relative;
+    padding: 50px 30px;
+    background-color: var(--green);
+    background-image: url("../img/coffee-first-sticker.png"), url("../img/how-it-works-bg.png");
+    background-repeat: no-repeat, repeat;
+    background-position: 1120px top, center center;
+    text-align: center;
+}
+
+.our-headquarters-heading {
+    margin-top: 0;
+    margin-bottom: 80px;
+    font-size: 50px;
+    line-height: normal;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.our-headquarters-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-bottom: 60px;
+    margin-left: -20px;
+    text-align: left;
+    counter-reset: our-headquarters;
+}
+
+.our-headquarters-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3 - 20px);
+    margin-left: 20px;
+    counter-increment: our-headquarters;
+}
+
+.our-headquarters-item::before {
+    position: relative;
+    z-index: 2;
+    width: 60px;
+    height: 60px;
+    /* border: 4px solid var(--accent-color-light-brown); */
+    margin-bottom: 20px;
+    /* background-color: var(--light-bg); */
+    border: 4px solid var(--light-brown);
+    background-color: #f8f8f8;
+    text-align: right;
+    content: "";
+}
+
+.our-headquarters-info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 140px;
+    padding-right: 55px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    /* background-color: var(--light-bg); */
+    background-color: #f8f8f2;
+}
+
+.our-headquarters-info-1 {
+    background-image: url("../img/UK-map-min.svg");
+    background-repeat: no-repeat;
+    background-position: 290px 10px;
+    background-size: 103px 143px;
+}
+
+.our-headquarters-info-2 {
+    background-image: url("../img/CANADA-map-min.svg");
+    background-repeat: no-repeat;
+    background-position: 290px 10px;
+    background-size: 103px 143px;
+}
+
+.our-headquarters-info-3 {
+    background-image: url("../img/AUSTRALIA-map-min.svg");
+    background-repeat: no-repeat;
+    background-position: 290px 10px;
+    background-size: 103px 143px;
+}
+
+.our-headquarters-info-heading {
+    max-width: 250px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 40px;
+    line-height: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.our-headquarters-info-text {
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.our-headquarters-cta:focus {
+    outline-color: var(--people-color);
+}
