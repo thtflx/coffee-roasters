@@ -715,10 +715,10 @@ img {
 .unc-quality-inner {
     align-items: center;
     display: flex;
-    background-image: url("../img/sailor-girl-aupage.png"), url("../img/index-features-bg.png");
-    /* background-size: 100% 510px; */
-    background-repeat: no-repeat, repeat;
-    background-position: top right, center center;
+    background-image: url("../img/index-features-bg.png");
+    /* background-size: 520px 510px; */
+    background-repeat: repeat;
+    background-position: center center;
 }
 
 .unc-quality-content {
@@ -748,9 +748,10 @@ img {
 }
 
 .unc-quality-img {
-    width: 550px;
-    height: 500px;
+    width: 450px;
+    height: 300px;
     object-fit: cover;
+    border: 4px solid var(--text-color);
 }
 
 
